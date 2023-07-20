@@ -13,7 +13,9 @@ const Countries = () => {
         <h3>Countries</h3>
         <ul>
             {
-
+                data.map((country, index) => (
+                    <li key={index} >{country.translations.fra.common}</li>
+                ))
             }
         </ul>
     </div>
