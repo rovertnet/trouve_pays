@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigation from '../composants/Navigation'
 
 const About = () => {
   return (
     <div>
+        <Navigation />
         <h1>A propos</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
