@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <Logo />
       <Navigation />
-      <div className="about">
+      <div >
         <h1>A propos</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.

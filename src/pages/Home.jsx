@@ -1,13 +1,14 @@
 import React from 'react'
 import Navigation from '../composants/Navigation'
 import Logo from '../composants/Logo'
+import Countries from '../composants/Countries'
 
 const Home = () => {
   return (
     <div>
-        <Logo />
-        <Navigation />
-        <h1>Accueil</h1>
+      <Logo />
+      <Navigation />
+      <Countries />
     </div>
   )
 }
