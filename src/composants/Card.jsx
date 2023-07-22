@@ -6,6 +6,7 @@ const Card = ({country}) => {
           <img src={country.flag.svg} alt={country.translations.fra.common } />
         <div className="infos">
               <h2>{country.translations.fra.common}</h2>
+              
         </div>
     </li>
   )
