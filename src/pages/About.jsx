@@ -9,7 +9,7 @@ const About = () => {
       <Logo />
       <Navigation />
       <div>
-        <h1>A propos</h1>
+        <h1 id='h1' >A propos</h1>
         <div className="about">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
