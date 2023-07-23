@@ -22,7 +22,6 @@ const About = () => {
             Optio quas odit quos rerum esse minus repellat, provident adipisci, earum,
             dolorum voluptatum! Quidem facilis harum, tempore tempora eaque consequatur quasi deserunt assumenda modi magni id?
           </p>
-          <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Velit, aliquam voluptates nesciunt repellendus deserunt fugit placeat,
