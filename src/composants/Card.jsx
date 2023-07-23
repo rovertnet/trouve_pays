@@ -4,7 +4,7 @@ const Card = ({country}) => {
     console.log(country);
   return (
     <li className="card">
-          <img src={country.flags.png} alt={country.translations.fra.common } />
+          <img src={country.flags.svg} alt={country.translations.fra.common } />
         <div className="infos">
               <h2>{country.translations.fra.common}</h2>
             <h4>{country.capital}</h4>
