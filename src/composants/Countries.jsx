@@ -3,10 +3,10 @@ import React, { useEffect, useState } from 'react'
 import Card from './Card';
 
 const Countries = () => {
-  const [data, setData] = useState([])
-  const [rangeValue, setRangeValue] = useState(36)
-  const radios = ["Afrique", "Amerique", "Asie", "Europe", "Océannie"]
-  const [selectedRadio, setSelectedRadio] = useState("")
+  const [data, setData] = useState([]);
+  const [rangeValue, setRangeValue] = useState(36);
+  const radios = ["Afrique", "Amerique", "Asie", "Europe", "Océannie"];
+  const [selectedRadio, setSelectedRadio] = useState("");
   useEffect(() => {
       axios
       .get("https://restcountries.com/v3.1/all")
@@ -37,7 +37,10 @@ const Countries = () => {
         </ul>
         <ul>
             {
-                data.slice(0, rangeValue).map((country, index) => (
+                data
+                    .filter((counts) => counts.continent[0].includes(selectedRadio))
+                    .slice(0, rangeValue)
+                    .map((country, index) => (
                     <Card key={index} country={country} />
                 ))
             }
