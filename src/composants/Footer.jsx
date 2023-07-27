@@ -8,14 +8,13 @@ const Footers = () => {
             <div className="footer_container container">
                 <h1 className="footer_title">RovertNet</h1>
                 <ul className="footer_list">
-                    <li>
-                        <a href="#about" className="foter_link">A propos</a>
-                    </li>
-
-                    <NavLink to="/about" className="foter_link">
-                        <li>A propos</li>
+                    <NavLink to="/" className={(nav) => (nav.isActive ? "foter_link nav-active" : "")}>
+                        <li>Pays</li>
                     </NavLink>
 
+                    <NavLink to="/about" className={(nav) => (nav.isActive ? "foter_link nav-active" : "")}>
+                        <li>A propos</li>
+                    </NavLink>
                 </ul>
 
                 <div className="footer_social">
