@@ -1,9 +1,9 @@
 import React from 'react';
 import "./about.css";
-import aboutImg from "../../assets/moi.png";
+import aboutImg from "../assets/moi.png";
 import Infos from './Infos';
 
-const About = () => {
+const Abouts = () => {
     return (
         <div className="about section" id="about">
             <h2 className="section_title">A propos de moi</h2>
@@ -31,4 +31,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Abouts
