@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/trouve_pays/static/css/main.d17b8aaf.css",
+    "main.js": "/trouve_pays/static/js/main.ec9c9197.js",
+    "static/media/main.jpg": "/trouve_pays/static/media/main.516fbcd135926107480c.jpg",
+    "static/media/JosefinSans-Medium.ttf": "/trouve_pays/static/media/JosefinSans-Medium.45a5738c27c1bbbecc0c.ttf",
+    "index.html": "/trouve_pays/index.html",
+    "main.d17b8aaf.css.map": "/trouve_pays/static/css/main.d17b8aaf.css.map",
+    "main.ec9c9197.js.map": "/trouve_pays/static/js/main.ec9c9197.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17b8aaf.css",
+    "static/js/main.ec9c9197.js"
+  ]
+}
