@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../composants/Navigation'
 import Logo from '../composants/Logo'
 import "./about.css"
+import Footers from '../composants/Footer'
 
 const About = () => {
   return (
@@ -15,7 +16,8 @@ const About = () => {
         </div>
       </div>
 
-      
+     <Footers />
+
     </div>
   )
 }
