@@ -6,7 +6,7 @@ const Footers = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <h1 className="footer_title">RovertNet</h1>
+                <h1 className="footer_title">Trouve Pays</h1>
                 <ul className="footer_list">
                     <NavLink to="/" className={(nav) => (nav.isActive ? "foter_link nav-active" : "")}>
                         <li>Pays</li>
